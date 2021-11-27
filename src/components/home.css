@@ -1,0 +1,35 @@
+.home {
+  background-color: black;
+  color: white;
+}
+
+.postertitle {
+  padding-top: 2%;
+  padding-left: 5%;
+  color: white;
+  width: 40%;
+  font-size: 160%;
+}
+
+.row_poster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.row_poster::-webkit-scrollbar {
+  display: none;
+}
+
+.poster_item {
+  margin-left: 20px;
+}
+.poster_item:hover {
+  height: 300%;
+}
+.row_poster_title {
+  margin-top: 1%;
+  margin-left: 20px;
+  font-size: 160%;
+  /* font-family: ; */
+}

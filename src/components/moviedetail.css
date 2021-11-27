@@ -1,0 +1,9 @@
+.similar_poster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.similar_poster::-webkit-scrollbar {
+  display: none;
+}
